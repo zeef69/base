@@ -27,6 +27,8 @@ public class TrainSensorImpl implements TrainSensor {
 	}
 
 	@Override
-	public void decreaseReferenceSpeed(int num){}
+	public void decreaseReferenceSpeed(int num){
+	    this.speedLimit=this.speedLimit-num;
+    }
 
 }
